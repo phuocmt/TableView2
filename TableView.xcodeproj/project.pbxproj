@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		116876D11D20E89300801BFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116876D01D20E89300801BFA /* AppDelegate.swift */; };
+		116876D31D20E89300801BFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116876D21D20E89300801BFA /* ViewController.swift */; };
+		116876D81D20E89300801BFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116876D71D20E89300801BFA /* Assets.xcassets */; };
+		116876DB1D20E89300801BFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116876D91D20E89300801BFA /* LaunchScreen.storyboard */; };
+		116876E41D20EA2D00801BFA /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116876E21D20EA2D00801BFA /* CustomTableViewController.swift */; };
+		116876E51D20EA2D00801BFA /* CustomTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 116876E31D20EA2D00801BFA /* CustomTableViewController.xib */; };
+		116876EB1D2112C700801BFA /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116876EA1D2112C700801BFA /* Icon.swift */; };
+		116876ED1D211E4A00801BFA /* IconDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116876EC1D211E4A00801BFA /* IconDataSource.swift */; };
+		116876F81D21204700801BFA /* summericons_100px_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 116876EE1D21204700801BFA /* summericons_100px_01.png */; };
+		116876F91D21204700801BFA /* summericons_100px_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 116876EF1D21204700801BFA /* summericons_100px_02.png */; };
+		116876FA1D21204700801BFA /* summericons_100px_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 116876F01D21204700801BFA /* summericons_100px_03.png */; };
+		116876FB1D21204700801BFA /* summericons_100px_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 116876F11D21204700801BFA /* summericons_100px_04.png */; };
+		116876FC1D21204700801BFA /* summericons_100px_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 116876F21D21204700801BFA /* summericons_100px_05.png */; };
+		116876FD1D21204700801BFA /* summericons_100px_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 116876F31D21204700801BFA /* summericons_100px_06.png */; };
+		116876FE1D21204700801BFA /* summericons_100px_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 116876F41D21204700801BFA /* summericons_100px_07.png */; };
+		116876FF1D21204700801BFA /* summericons_100px_08.png in Resources */ = {isa = PBXBuildFile; fileRef = 116876F51D21204700801BFA /* summericons_100px_08.png */; };
+		116877001D21204700801BFA /* summericons_100px_09.png in Resources */ = {isa = PBXBuildFile; fileRef = 116876F61D21204700801BFA /* summericons_100px_09.png */; };
+		116877011D21204700801BFA /* summericons_100px_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 116876F71D21204700801BFA /* summericons_100px_10.png */; };
+		116877041D2127BD00801BFA /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116877021D2127BD00801BFA /* CustomTableViewCell.swift */; };
+		116877051D2127BD00801BFA /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 116877031D2127BD00801BFA /* CustomTableViewCell.xib */; };
+		11EFA1341D2212840078775F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EFA1321D2212840078775F /* ProfileViewController.swift */; };
+		11EFA1351D2212840078775F /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11EFA1331D2212840078775F /* ProfileViewController.xib */; };
+		11EFA1371D2217880078775F /* success-next-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EFA1361D2217880078775F /* success-next-button.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		116876CD1D20E89200801BFA /* TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		116876D01D20E89300801BFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		116876D21D20E89300801BFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		116876D71D20E89300801BFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		116876DA1D20E89300801BFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		116876DC1D20E89300801BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		116876E21D20EA2D00801BFA /* CustomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
+		116876E31D20EA2D00801BFA /* CustomTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewController.xib; sourceTree = "<group>"; };
+		116876EA1D2112C700801BFA /* Icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		116876EC1D211E4A00801BFA /* IconDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconDataSource.swift; sourceTree = "<group>"; };
+		116876EE1D21204700801BFA /* summericons_100px_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summericons_100px_01.png; sourceTree = "<group>"; };
+		116876EF1D21204700801BFA /* summericons_100px_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summericons_100px_02.png; sourceTree = "<group>"; };
+		116876F01D21204700801BFA /* summericons_100px_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summericons_100px_03.png; sourceTree = "<group>"; };
+		116876F11D21204700801BFA /* summericons_100px_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summericons_100px_04.png; sourceTree = "<group>"; };
+		116876F21D21204700801BFA /* summericons_100px_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summericons_100px_05.png; sourceTree = "<group>"; };
+		116876F31D21204700801BFA /* summericons_100px_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summericons_100px_06.png; sourceTree = "<group>"; };
+		116876F41D21204700801BFA /* summericons_100px_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summericons_100px_07.png; sourceTree = "<group>"; };
+		116876F51D21204700801BFA /* summericons_100px_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summericons_100px_08.png; sourceTree = "<group>"; };
+		116876F61D21204700801BFA /* summericons_100px_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summericons_100px_09.png; sourceTree = "<group>"; };
+		116876F71D21204700801BFA /* summericons_100px_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summericons_100px_10.png; sourceTree = "<group>"; };
+		116877021D2127BD00801BFA /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		116877031D2127BD00801BFA /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		11EFA1321D2212840078775F /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		11EFA1331D2212840078775F /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		11EFA1361D2217880078775F /* success-next-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success-next-button.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		116876CA1D20E89200801BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		116876C41D20E89200801BFA = {
+			isa = PBXGroup;
+			children = (
+				116876CF1D20E89200801BFA /* TableView */,
+				116876CE1D20E89200801BFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		116876CE1D20E89200801BFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				116876CD1D20E89200801BFA /* TableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		116876CF1D20E89200801BFA /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				116876E61D210DFC00801BFA /* Model */,
+				116876D01D20E89300801BFA /* AppDelegate.swift */,
+				11EFA1321D2212840078775F /* ProfileViewController.swift */,
+				11EFA1331D2212840078775F /* ProfileViewController.xib */,
+				116876E21D20EA2D00801BFA /* CustomTableViewController.swift */,
+				116876E31D20EA2D00801BFA /* CustomTableViewController.xib */,
+				116877021D2127BD00801BFA /* CustomTableViewCell.swift */,
+				116877031D2127BD00801BFA /* CustomTableViewCell.xib */,
+				116876D21D20E89300801BFA /* ViewController.swift */,
+				116876D71D20E89300801BFA /* Assets.xcassets */,
+				116876D91D20E89300801BFA /* LaunchScreen.storyboard */,
+				116876DC1D20E89300801BFA /* Info.plist */,
+				116876E91D21106A00801BFA /* Photo */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		116876E61D210DFC00801BFA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				116876EA1D2112C700801BFA /* Icon.swift */,
+				116876EC1D211E4A00801BFA /* IconDataSource.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		116876E91D21106A00801BFA /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				116876EE1D21204700801BFA /* summericons_100px_01.png */,
+				116876EF1D21204700801BFA /* summericons_100px_02.png */,
+				116876F01D21204700801BFA /* summericons_100px_03.png */,
+				116876F11D21204700801BFA /* summericons_100px_04.png */,
+				116876F21D21204700801BFA /* summericons_100px_05.png */,
+				116876F31D21204700801BFA /* summericons_100px_06.png */,
+				116876F41D21204700801BFA /* summericons_100px_07.png */,
+				116876F51D21204700801BFA /* summericons_100px_08.png */,
+				116876F61D21204700801BFA /* summericons_100px_09.png */,
+				116876F71D21204700801BFA /* summericons_100px_10.png */,
+				11EFA1361D2217880078775F /* success-next-button.png */,
+			);
+			name = Photo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		116876CC1D20E89200801BFA /* TableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116876DF1D20E89300801BFA /* Build configuration list for PBXNativeTarget "TableView" */;
+			buildPhases = (
+				116876C91D20E89200801BFA /* Sources */,
+				116876CA1D20E89200801BFA /* Frameworks */,
+				116876CB1D20E89200801BFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableView;
+			productName = TableView;
+			productReference = 116876CD1D20E89200801BFA /* TableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		116876C51D20E89200801BFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "AST-iMac-0015";
+				TargetAttributes = {
+					116876CC1D20E89200801BFA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 116876C81D20E89200801BFA /* Build configuration list for PBXProject "TableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 116876C41D20E89200801BFA;
+			productRefGroup = 116876CE1D20E89200801BFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				116876CC1D20E89200801BFA /* TableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		116876CB1D20E89200801BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116876DB1D20E89300801BFA /* LaunchScreen.storyboard in Resources */,
+				116877001D21204700801BFA /* summericons_100px_09.png in Resources */,
+				116876FC1D21204700801BFA /* summericons_100px_05.png in Resources */,
+				11EFA1351D2212840078775F /* ProfileViewController.xib in Resources */,
+				116876D81D20E89300801BFA /* Assets.xcassets in Resources */,
+				116876FE1D21204700801BFA /* summericons_100px_07.png in Resources */,
+				116876FB1D21204700801BFA /* summericons_100px_04.png in Resources */,
+				116876E51D20EA2D00801BFA /* CustomTableViewController.xib in Resources */,
+				11EFA1371D2217880078775F /* success-next-button.png in Resources */,
+				116876FA1D21204700801BFA /* summericons_100px_03.png in Resources */,
+				116877051D2127BD00801BFA /* CustomTableViewCell.xib in Resources */,
+				116876F81D21204700801BFA /* summericons_100px_01.png in Resources */,
+				116877011D21204700801BFA /* summericons_100px_10.png in Resources */,
+				116876F91D21204700801BFA /* summericons_100px_02.png in Resources */,
+				116876FD1D21204700801BFA /* summericons_100px_06.png in Resources */,
+				116876FF1D21204700801BFA /* summericons_100px_08.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		116876C91D20E89200801BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116877041D2127BD00801BFA /* CustomTableViewCell.swift in Sources */,
+				116876D31D20E89300801BFA /* ViewController.swift in Sources */,
+				116876E41D20EA2D00801BFA /* CustomTableViewController.swift in Sources */,
+				116876D11D20E89300801BFA /* AppDelegate.swift in Sources */,
+				11EFA1341D2212840078775F /* ProfileViewController.swift in Sources */,
+				116876ED1D211E4A00801BFA /* IconDataSource.swift in Sources */,
+				116876EB1D2112C700801BFA /* Icon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		116876D91D20E89300801BFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				116876DA1D20E89300801BFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		116876DD1D20E89300801BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		116876DE1D20E89300801BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		116876E01D20E89300801BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asiantech.TableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		116876E11D20E89300801BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asiantech.TableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		116876C81D20E89200801BFA /* Build configuration list for PBXProject "TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116876DD1D20E89300801BFA /* Debug */,
+				116876DE1D20E89300801BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		116876DF1D20E89300801BFA /* Build configuration list for PBXNativeTarget "TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116876E01D20E89300801BFA /* Debug */,
+				116876E11D20E89300801BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 116876C51D20E89200801BFA /* Project object */;
+}
